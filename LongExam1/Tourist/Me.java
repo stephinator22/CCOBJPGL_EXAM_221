@@ -17,7 +17,7 @@ public class Me implements Tourist {
     public void visit(Boracay boracay) {
         if (budget >= boracay.airFare) {
             budget -= boracay.airFare;
-            System.out.println("Visiting Boracay");
+            System.out.println("tara vlogger hunting");
         } else {
             System.out.println("ok lng yan puro vlogger lng namn nandito");
         }
