@@ -69,7 +69,7 @@ public class Me implements Tourist {
             budget -= bohol.airFare;
             System.out.println("Visiting Bohol");
         } else {
-            System.out.println("sayng di ko natikman ang chocolate hills");
+            System.out.println("Wala ka nang pera konti asi ng dala");
         }
         checkBudget();
     }
