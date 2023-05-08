@@ -19,7 +19,7 @@ public class Me implements Tourist {
             budget -= boracay.airFare;
             System.out.println("Visiting Boracay");
         } else {
-            System.out.println("Not enough budget to visit Boracay");
+            System.out.println("ok lng yan puro vlogger lng namn nandito");
         }
         checkBudget();
     }
@@ -29,7 +29,7 @@ public class Me implements Tourist {
             budget -= palawan.airFare;
             System.out.println("Visiting Palawan");
         } else {
-            System.out.println("Not enough budget to visit Palawan");
+            System.out.println("Kulang pera mo");
         }
         checkBudget();
     }
@@ -37,9 +37,9 @@ public class Me implements Tourist {
     public void visit(Cebu cebu) {
         if (budget >= cebu.airFare) {
             budget -= cebu.airFare;
-            System.out.println("Visiting Cebu");
+            System.out.println("NAMISS KITA CEBUUU");
         } else {
-            System.out.println("Not enough budget to visit Cebu");
+            System.out.println("BKT UBOS NA PERA KO");
         }
         checkBudget();
     }
@@ -49,7 +49,7 @@ public class Me implements Tourist {
             budget -= iloilo.airFare;
             System.out.println("Visiting iloilo");
         } else {
-            System.out.println("Not enough budget to visit iloilo");
+            System.out.println("Next time for sure");
         }
         checkBudget();
     }
@@ -59,7 +59,7 @@ public class Me implements Tourist {
             budget -= bacolod.airFare;
             System.out.println("Visiting The ruins");
         } else {
-            System.out.println("Not enough budget to visit The ruins");
+            System.out.println("Next time nlng ulit");
         }
         checkBudget();
     }
@@ -69,7 +69,7 @@ public class Me implements Tourist {
             budget -= bohol.airFare;
             System.out.println("Visiting Bohol");
         } else {
-            System.out.println("Not enough budget to visit Bohol");
+            System.out.println("sayng di ko natikman ang chocolate hills");
         }
         checkBudget();
     }
